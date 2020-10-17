@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "International Students Statewide per 10,000 Population (2020)",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/week9hw/data/australia.topojson",
+    "format": {"type": "topojson", "feature": "STE11aAust"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.STATE_NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/week9hw/data/International_students.csv"
+        },
+        "key": "State_Territory",
+        "fields": ["International_Students", "Population"]
+      }
+    },
+    {
+      "calculate": "datum.International_Students/datum.Population * 10000",
+      "as": "International students per 10,000 population"
+    }
+  ],
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "International students per 10,000 population",
+      "type": "quantitative",
+      "scale": {"type": "linear", "scheme": "blues"}
+    },
+    "tooltip": [
+      {"field": "properties.STATE_NAME", "type": "nominal", "title": "State"},
+      {
+        "field": "International students per 10,000 population",
+        "type": "quantitative"
+      }
+    ]
+  },
+  "config": {}
+}
