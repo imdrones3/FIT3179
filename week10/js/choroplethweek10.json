@@ -1,0 +1,143 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "title": "COVID-19 Cases per Country (13 Oct 2020)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/week10/data/international_malefemale.csv"
+  },
+  "params": [
+    {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 8000,
+        "step": 500,
+        "name": "Minimum Population (thousands): "
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.Population > Population_Above > 0"}],
+  "encoding": {
+    "x": {
+      "field": "Male_adj",
+      "type": "quantitative",
+      "title": "Overseas Full-time Load - Male per 10,000 people"
+    },
+    "y": {
+      "field": "Female_adj",
+      "type": "quantitative",
+      "title": "Overseas Full-time Load - Females per 10,000 people"
+    }
+  },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["State_Territory"],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "color": {"field": "State_Territory", "type": "nominal"},
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.8},
+          "value": 0.2
+        },
+        "size": {
+          "field": "Population",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000, 5000],
+            "range": [100, 400, 800]
+          }
+        },
+        "tooltip": [
+          {"field": "State_Territory", "type": "nominal"},
+          {
+            "field": "Population",
+            "title": "Population (thousands)",
+            "type": "quantitative",
+            "format": ","
+          },
+          {"field": "Male", "type": "quantitative", "format": ","},
+          {"field": "Female", "type": "quantitative", "format": ","},
+          {
+            "field": "Actual_Load",
+            "title": "Actual Load",
+            "type": "quantitative",
+            "format": ","
+          },
+          {
+            "field": "Male_adj",
+            "title": "Overseas Males per 1000 population",
+            "type": "quantitative",
+            "format": ".3s"
+          },
+          {
+            "field": "Female_adj",
+            "title": "Overseas Females per 1000 population",
+            "type": "quantitative",
+            "format": ".3s"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -16,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "State_Territory", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['State_Territory'] == 'Victoria' || datum['State_Territory'] == 'Queensland' || datum['State_Territory'] == 'South Australia'",
+            "value": 1
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "State_Territory", "type": "nominal"},
+          {
+            "field": "Population",
+            "title": "Population (thousands)",
+            "type": "quantitative",
+            "format": ","
+          },
+          {"field": "Male", "type": "quantitative", "format": ","},
+          {"field": "Female", "type": "quantitative", "format": ","},
+          {
+            "field": "Actual_Load",
+            "title": "Actual Load",
+            "type": "quantitative",
+            "format": ","
+          },
+          {
+            "field": "Male_adj",
+            "title": "Overseas Males per 1000 population",
+            "type": "quantitative",
+            "format": ".3s"
+          },
+          {
+            "field": "Female_adj",
+            "title": "Overseas Females per 1000 population",
+            "type": "quantitative",
+            "format": ".3s"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
