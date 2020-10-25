@@ -4,7 +4,7 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/week9hw/data/australia.topojson",
+    "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/week10/js/australia.topojson",
     "format": {"type": "topojson", "feature": "STE11aAust"}
   },
   "transform": [
@@ -12,7 +12,7 @@
       "lookup": "properties.STATE_NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/week9hw/data/International_students.csv"
+          "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/week10/data/International_students.csv"
         },
         "key": "State_Territory",
         "fields": ["International_Students", "Population"]
