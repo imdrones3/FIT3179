@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/Vis2/data/top5exportsources.csv"
+  },
+  "width": 600,
+  "height": 600,
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "axis": {"tickCount": 15, "grid": false}
+    },
+    "y": {
+      "field": "education_exports",
+      "type": "quantitative",
+      "axis": {"tickCount": 10, "grid": false}
+    },
+    "color": {
+      "condition": {
+        "selection": "hover",
+        "field": "countries",
+        "type": "nominal"
+      },
+      "value": "grey"
+    },
+    "opacity": {"condition": {"selection": "hover", "value": 1}, "value": 0.2}
+  },
+  "layer": [
+    {"mark": {"type": "line", "strokeWidth": 3}},
+    {
+      "selection": {
+        "hover": {
+          "type": "single",
+          "on": "mouseover",
+          "empty": "all",
+          "fields": ["countries"]
+        }
+      },
+      "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+    }
+  ],
+  "config": {}
+}
