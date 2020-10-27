@@ -1,0 +1,13 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/Vis2/data/top10exportsources.csv"
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "year", "type": "temporal"},
+    "y": {"field": "education_exports", "type": "quantitative"},
+    "color": {"field": "countries", "type": "nominal"}
+  },
+  "config": {}
+}
