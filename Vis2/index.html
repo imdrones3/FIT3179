@@ -13,19 +13,19 @@
 </head>
 <body>
 
-<h1>Patterns in Australia's Education Export</h1>
+<h1>visualisation2</h1>
 
-<h2>International Students Statewide per 10,000 Population (2020)</h2>
-<div id="choropleth_map"></div>
+<h2>top 4 countries for education exports</h2>
+<div id="linegraph"></div>
 
 <h2>Overseas Male and Female Students among States and Territories (per 1,000 population)</h2>
 <div id="scatter_plot"></div>
 
 <script type="text/javascript">
   
-  var vis1 = "https://raw.githubusercontent.com/imdrones3/FIT3179/main/week10/js/week9choropleth.json";
+  var vis1 = "https://raw.githubusercontent.com/imdrones3/FIT3179/main/Vis2/js/DRAFT_linegraph.json";
   
-  vegaEmbed('#choropleth_map', vis1).then(function(result) {
+  vegaEmbed('#linegraph', vis1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
