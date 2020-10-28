@@ -1,42 +1,42 @@
 university,state,onshore,offshore,total,latitude,longitude
-Charles Sturt University,NSW,8460,1925,10385,,
+Charles Sturt University,NSW,8460,1925,10385,-35.056919,147.350967
 Macquarie University,NSW,9690,2534,12224,-33.77698,151.11374
-Southern Cross University,NSW,4563,1207,5770,,
-The University of New England,NSW,1039,770,1809,,
-The University of Newcastle,NSW,4459,1370,5829,,
+Southern Cross University,NSW,4563,1207,5770,-37.8101,144.9689
+The University of New England,NSW,1039,770,1809,-33.8144,151.003
+The University of Newcastle,NSW,4459,1370,5829,-32.8966,151.6975
 The University of Sydney,NSW,29592,503,30095,-33.884979,151.191406
-University of New South Wales,NSW,17081,7771,24852,,
-University of Technology Sydney,NSW,13826,1748,15574,,
-University of Wollongong,NSW,7846,8171,16017,,
-Western Sydney University,NSW,6458,1711,8169,,
-Deakin University,VIC,14863,1281,16144,,
-Federation University Australia,VIC,9277,995,10272,,
-La Trobe University,VIC,8832,1753,10585,,
-Monash University,VIC,28446,12954,41400,,
-RMIT University,VIC,18695,15155,33850,,
-Swinburne University of Technology,VIC,5715,5013,10728,,
+University of New South Wales,NSW,17081,7771,24852,-33.9169,151.2299
+University of Technology Sydney,NSW,13826,1748,15574,-33.8839,151.201
+University of Wollongong,NSW,7846,8171,16017,-34.4054,150.8784
+Western Sydney University,NSW,6458,1711,8169,-33.8142,151.0066
+Deakin University,VIC,14863,1281,16144,-37.8489,145.0312
+Federation University Australia,VIC,9277,995,10272,-38.3112,146.4294
+La Trobe University,VIC,8832,1753,10585,-36.3803,145.3981
+Monash University,VIC,28446,12954,41400,-37.9152,145.1347
+RMIT University,VIC,18695,15155,33850,-37.8087,144.9637
+Swinburne University of Technology,VIC,5715,5013,10728,-37.8221,145.039
 The University of Melbourne,VIC,23056,5561,28617,-37.796368,144.961166
-University of Divinity,VIC,126,32,158,,
-Victoria University,VIC,6609,5835,12444,,
-Bond University,QLD,2858,335,3193,,
-CQUniversity,QLD,8608,17,8625,,
-Griffith University,QLD,6667,2349,9016,,
-James Cook University,QLD,3312,3280,6592,,
-Queensland University of Technology,QLD,9432,337,9769,,
-The University of Queensland,QLD,19924,288,20212,,
-University of Southern Queensland,QLD,2274,523,2797,,
-University of the Sunshine Coast,QLD,3416,345,3761,,
+University of Divinity,VIC,126,32,158,-37.8058,145.0368
+Victoria University,VIC,6609,5835,12444,-37.7933,144.8965
+Bond University,QLD,2858,335,3193,-28.0727,153.4169
+CQUniversity,QLD,8608,17,8625,-27.4674,153.0243
+Griffith University,QLD,6667,2349,9016,-27.5578,153.0539
+James Cook University,QLD,3312,3280,6592,-19.3258,146.7567
+Queensland University of Technology,QLD,9432,337,9769,-27.4512,153.0164
+The University of Queensland,QLD,19924,288,20212,-27.4979,153.0133
+University of Southern Queensland,QLD,2274,523,2797,-27.603,151.9319
+University of the Sunshine Coast,QLD,3416,345,3761,-26.7172,153.0623
 Curtin University ,WA,5959,7414,13373,-32.006195,115.894417
-Edith Cowan University,WA,5880,955,6835,,
-Murdoch University,WA,2988,7104,10092,,
-The University of Notre Dame Australia,WA,196,20,216,,
-The University of Western Australia,WA,3875,1512,5387,,
-Flinders University,SA,3227,1904,5131,,
-The University of Adelaide,SA,8682,296,8978,,
-Torrens University Australia,SA,8829,786,9615,,
-University of South Australia,SA,6424,323,6747,,
-University of Tasmania,TAS,6644,1444,8088,,
-Charles Darwin University,NT,1760,136,1896,,
-The Australian National University,ACT,9741,763,10504,,
-University of Canberra,ACT,2827,657,3484,,
-Australian Catholic University,Multistate,4361,241,4602,,
+Edith Cowan University,WA,5880,955,6835,-31.7524,115.771
+Murdoch University,WA,2988,7104,10092,-32.0701,115.8327
+The University of Notre Dame Australia,WA,196,20,216,-32.0563,115.744
+The University of Western Australia,WA,3875,1512,5387,-31.9812,115.8199
+Flinders University,SA,3227,1904,5131,-35.0178,138.571
+The University of Adelaide,SA,8682,296,8978,-34.9206,138.6062
+Torrens University Australia,SA,8829,786,9615,-34.9282,138.6039
+University of South Australia,SA,6424,323,6747,-34.9202,138.6067
+University of Tasmania,TAS,6644,1444,8088,-42.9017,147.3274
+Charles Darwin University,NT,1760,136,1896,-12.3722,130.8689
+The Australian National University,ACT,9741,763,10504,-35.2777,149.1185
+University of Canberra,ACT,2827,657,3484,-35.2382,149.0841
+Australian Catholic University,Multistate,4361,241,4602,-27.3786,153.0891
