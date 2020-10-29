@@ -11,9 +11,15 @@
       "field": "Fieldofstudy",
       "type": "nominal",
       "title": null,
+      "axis": {"labelAngle": 45},
       "sort": {"op": "sum", "field": "total", "order": "descending"}
     },
-    "y": {"field": "total", "type": "quantitative", "title": null}
+    "y": {
+      "field": "total",
+      "type": "quantitative",
+      "axis": {"tickCount": 6},
+      "title": null
+    }
   },
   "layer": [{"mark": "bar"}],
   "config": {}
