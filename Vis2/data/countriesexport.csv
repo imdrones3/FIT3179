@@ -1,113 +1,113 @@
 countries,millions,percentage
-Adelie Land (France),-,0
-Afghanistan,2,4.95835E-05
-Albania,3,7.43752E-05
-Algeria,1,2.47917E-05
-"Americas, nfd",-,0
-Andorra,1,2.47917E-05
-Angola,-,0
-Anguilla,-,0
-"Antarctica, nfd",-,0
-Antigua and Barbuda,-,0
+Adelie Land (France),0,0
+Afghanistan,2,4.96E-05
+Albania,3,7.44E-05
+Algeria,1,2.48E-05
+"Americas, nfd",0,0
+Andorra,1,2.48E-05
+Angola,0,0
+Anguilla,0,0
+"Antarctica, nfd",0,0
+Antigua and Barbuda,0,0
 Argentina,46,0.00114042
-Argentinian Antarctic Territory,-,0
-Armenia,1,2.47917E-05
-Aruba,-,0
-"Asia, nfd",-,0
+Argentinian Antarctic Territory,0,0
+Armenia,1,2.48E-05
+Aruba,0,0
+"Asia, nfd",0,0
 Australia,0,0
 Austria,14,0.000347084
-Azerbaijan,2,4.95835E-05
-Bahamas,-,0
-Bahrain,3,7.43752E-05
+Azerbaijan,2,4.96E-05
+Bahamas,0,0
+Bahrain,3,7.44E-05
 Bangladesh,431,0.010685244
-Barbados,1,2.47917E-05
-Belarus,1,2.47917E-05
+Barbados,1,2.48E-05
+Belarus,1,2.48E-05
 Belgium,20,0.000495835
-Belize,1,2.47917E-05
-Benin,-,0
-Bermuda,-,0
+Belize,1,2.48E-05
+Benin,0,0
+Bermuda,0,0
 Bhutan,170,0.004214597
-Bolivia,3,7.43752E-05
-Bosnia and Herzegovina,2,4.95835E-05
+Bolivia,3,7.44E-05
+Bosnia and Herzegovina,2,4.96E-05
 Botswana,9,0.000223126
 Brazil,1050,0.026031337
-British Antarctic Territory,-,0
+British Antarctic Territory,0,0
 Brunei Darussalam,20,0.000495835
 Bulgaria,8,0.000198334
-Burkina Faso,-,0
-Burundi,1,2.47917E-05
-Cabo Verde,-,0
+Burkina Faso,0,0
+Burundi,1,2.48E-05
+Cabo Verde,0,0
 Cambodia,156,0.003867513
-Cameroon,3,7.43752E-05
+Cameroon,3,7.44E-05
 Canada,291,0.007214399
-"Caribbean, nfd",1,2.47917E-05
-Cayman Islands,-,0
-Central African Republic,-,0
-"Central America, nfd",-,0
-"Central and West Africa, nfd",-,0
-"Central Asia, nfd",-,0
-Chad,-,0
+"Caribbean, nfd",1,2.48E-05
+Cayman Islands,0,0
+Central African Republic,0,0
+"Central America, nfd",0,0
+"Central and West Africa, nfd",0,0
+"Central Asia, nfd",0,0
+Chad,0,0
 Chile,168,0.004165014
-Chilean Antarctic Territory,-,0
+Chilean Antarctic Territory,0,0
 China,12655,0.313739587
-"Chinese Asia (includes Mongolia), nfd",-,0
+"Chinese Asia (includes Mongolia), nfd",0,0
 Colombia,820,0.020329234
-Comoros,-,0
-"Congo, Democratic Republic of",1,2.47917E-05
-"Congo, Republic of",-,0
-Cook Islands,-,0
-Costa Rica,3,7.43752E-05
-Cote d'Ivoire,-,0
+Comoros,0,0
+"Congo, Democratic Republic of",1,2.48E-05
+"Congo, Republic of",0,0
+Cook Islands,0,0
+Costa Rica,3,7.44E-05
+Cote d'Ivoire,0,0
 Croatia,4,0.000099167
-Cuba,-,0
-Cyprus,2,4.95835E-05
+Cuba,0,0
+Cyprus,2,4.96E-05
 Czechia,44,0.001090837
-"Czechoslovakia, nfd",-,0
+"Czechoslovakia, nfd",0,0
 Denmark,30,0.000743752
-Djibouti,-,0
-Dominica,-,0
-Dominican Republic,1,2.47917E-05
-"Eastern Europe, nfd",-,0
+Djibouti,0,0
+Dominica,0,0
+Dominican Republic,1,2.48E-05
+"Eastern Europe, nfd",0,0
 Ecuador,25,0.000619794
 Egypt,25,0.000619794
-El Salvador,3,7.43752E-05
-Equatorial Guinea,-,0
-Eritrea,-,0
+El Salvador,3,7.44E-05
+Equatorial Guinea,0,0
+Eritrea,0,0
 Estonia,17,0.00042146
-Eswatini,1,2.47917E-05
+Eswatini,1,2.48E-05
 Ethiopia,15,0.000371876
-"Europe, nfd",-,0
-Falkland Islands,-,0
-Faroe Islands,-,0
+"Europe, nfd",0,0
+Falkland Islands,0,0
+Faroe Islands,0,0
 Fiji,43,0.001066045
 Finland,17,0.00042146
-"Former USSR, nfd",-,0
-"Former Yugoslavia, nfd",-,0
+"Former USSR, nfd",0,0
+"Former Yugoslavia, nfd",0,0
 France,187,0.004636057
-French Guiana,-,0
-French Polynesia,-,0
-Gabon,-,0
-Gambia,-,0
-Gaza Strip and West Bank,2,4.95835E-05
-Georgia,1,2.47917E-05
+French Guiana,0,0
+French Polynesia,0,0
+Gabon,0,0
+Gambia,0,0
+Gaza Strip and West Bank,2,4.96E-05
+Georgia,1,2.48E-05
 Germany,183,0.00453689
 Ghana,37,0.000917295
-Gibraltar,-,0
+Gibraltar,0,0
 Greece,25,0.000619794
-Greenland,-,0
-Grenada,-,0
-Guadeloupe,-,0
-Guam,-,0
-Guatemala,3,7.43752E-05
-Guinea,-,0
-Guinea-Bissau,-,0
-Guyana,-,0
-Haiti,-,0
-Holy See,-,0
-Honduras,1,2.47917E-05
+Greenland,0,0
+Grenada,0,0
+Guadeloupe,0,0
+Guam,0,0
+Guatemala,3,7.44E-05
+Guinea,0,0
+Guinea-Bissau,0,0
+Guyana,0,0
+Haiti,0,0
+Holy See,0,0
+Honduras,1,2.48E-05
 Hong Kong,756,0.018742562
 Hungary,13,0.000322293
-Iceland,2,4.95835E-05
+Iceland,2,4.96E-05
 India,6403,0.158741571
 Indonesia,1009,0.025014875
 Iran,167,0.004140222
@@ -115,166 +115,166 @@ Iraq,17,0.00042146
 Ireland,41,0.001016462
 Israel,9,0.000223126
 Italy,257,0.00637148
-Jamaica,2,4.95835E-05
+Jamaica,2,4.96E-05
 Japan,468,0.011602539
-"Japan and the Koreas, nfd",-,0
+"Japan and the Koreas, nfd",0,0
 Jordan,30,0.000743752
 Kazakhstan,10,0.000247917
 Kenya,220,0.005454185
-Kiribati,2,4.95835E-05
-Dem. Rep. Korea,-,0
-Korea,997,0.024717374
-"Kurdistan, nfd",-,0
+Kiribati,2,4.96E-05
+Democratic People's Republic of Korea,0,0
+Republic of Korea,997,0.024717374
+"Kurdistan, nfd",0,0
 Kuwait,29,0.000718961
-Kyrgyzstan,1,2.47917E-05
+Kyrgyzstan,1,2.48E-05
 Laos,29,0.000718961
-Latvia,3,7.43752E-05
+Latvia,3,7.44E-05
 Lebanon,39,0.000966878
-Lesotho,1,2.47917E-05
-Liberia,1,2.47917E-05
-Libya,1,2.47917E-05
-Liechtenstein,-,0
+Lesotho,1,2.48E-05
+Liberia,1,2.48E-05
+Libya,1,2.48E-05
+Liechtenstein,0,0
 Lithuania,25,0.000619794
-Luxembourg,2,4.95835E-05
+Luxembourg,2,4.96E-05
 Macau,49,0.001214796
-Madagascar,1,2.47917E-05
-"Mainland South-East Asia, nfd",-,0
+Madagascar,1,2.48E-05
+"Mainland South-East Asia, nfd",0,0
 Malawi,5,0.000123959
 Malaysia,1372,0.03401428
 Maldives,9,0.000223126
-Mali,-,0
-Malta,1,2.47917E-05
-"Maritime South-East Asia, nfd",-,0
-Marshall Islands,-,0
-Martinique,-,0
-Mauritania,-,0
+Mali,0,0
+Malta,1,2.48E-05
+"Maritime South-East Asia, nfd",0,0
+Marshall Islands,0,0
+Martinique,0,0
+Mauritania,0,0
 Mauritius,107,0.002652717
-Mayotte,-,0
-"Melanesia, nfd",-,0
+Mayotte,0,0
+"Melanesia, nfd",0,0
 Mexico,116,0.002875843
-"Micronesia, Federated States of",-,0
-"Micronesia, nfd",-,0
-"Middle East, nfd",-,0
-Moldova,-,0
-Monaco,-,0
+"Micronesia, Federated States of",0,0
+"Micronesia, nfd",0,0
+"Middle East, nfd",0,0
+Moldova,0,0
+Monaco,0,0
 Mongolia,148,0.003669179
-Montenegro,1,2.47917E-05
-Montserrat,-,0
-Morocco,3,7.43752E-05
+Montenegro,1,2.48E-05
+Montserrat,0,0
+Morocco,3,7.44E-05
 Mozambique,4,0.000099167
 Myanmar,121,0.002999802
-Namibia,1,2.47917E-05
-Nauru,3,7.43752E-05
+Namibia,1,2.48E-05
+Nauru,3,7.44E-05
 Nepal,2973,0.073705871
 Netherlands,45,0.001115629
-"Netherlands Antilles, nfd",-,0
-New Caledonia,1,2.47917E-05
+"Netherlands Antilles, nfd",0,0
+New Caledonia,1,2.48E-05
 New Zealand,242,0.005999603
-Nicaragua,-,0
-Niger,-,0
+Nicaragua,0,0
+Niger,0,0
 Nigeria,139,0.003446053
-Niue,-,0
-Norfolk Island,-,0
-"North Africa and the Middle East, nfd",-,0
-"North Africa, nfd",-,0
+Niue,0,0
+Norfolk Island,0,0
+"North Africa and the Middle East, nfd",0,0
+"North Africa, nfd",0,0
 North Macedonia,13,0.000322293
-"North-East Asia, nfd",-,0
-"Northern America, nfd",-,0
-"Northern Europe, nfd",-,0
-Northern Mariana Islands,-,0
-"North-West Europe, nfd",-,0
+"North-East Asia, nfd",0,0
+"Northern America, nfd",0,0
+"Northern Europe, nfd",0,0
+Northern Mariana Islands,0,0
+"North-West Europe, nfd",0,0
 Norway,86,0.00213209
-Not applicable ,-,0
-"Oceania and Antarctica, nfd",-,0
+Not applicable ,0,0
+"Oceania and Antarctica, nfd",0,0
 Oman,61,0.001512297
 Pakistan,822,0.020378818
-Palau,-,0
-Panama,1,2.47917E-05
+Palau,0,0
+Panama,1,2.48E-05
 Papua New Guinea,81,0.002008132
 Paraguay,5,0.000123959
 Peru,61,0.001512297
 Philippines,761,0.018866521
-Pitcairn Islands,-,0
+Pitcairn Islands,0,0
 Poland,49,0.001214796
-"Polynesia (excludes Hawaii), nfd",-,0
+"Polynesia (excludes Hawaii), nfd",0,0
 Portugal,40,0.00099167
-Puerto Rico,-,0
-Qatar,2,4.95835E-05
-Queen Maud Land (Norway),-,0
-Reunion,-,0
+Puerto Rico,0,0
+Qatar,2,4.96E-05
+Queen Maud Land (Norway),0,0
+Reunion,0,0
 Romania,7,0.000173542
-Ross Dependency (New Zealand),-,0
+Ross Dependency (New Zealand),0,0
 Russia,56,0.001388338
-Rwanda,2,4.95835E-05
-Samoa,3,7.43752E-05
-"Samoa, American",-,0
-San Marino,-,0
-Sao Tome and Principe,-,0
+Rwanda,2,4.96E-05
+Samoa,3,7.44E-05
+"Samoa, American",0,0
+San Marino,0,0
+Sao Tome and Principe,0,0
 Saudi Arabia,331,0.008206069
-Senegal,-,0
+Senegal,0,0
 Serbia,7,0.000173542
-"Serbia and Montenegro, nfd",-,0
-Seychelles,2,4.95835E-05
-Sierra Leone,1,2.47917E-05
+"Serbia and Montenegro, nfd",0,0
+Seychelles,2,4.96E-05
+Sierra Leone,1,2.48E-05
 Singapore,542,0.013437128
 Slovakia,27,0.000669377
 Slovenia,5,0.000123959
 Solomon Islands,11,0.000272709
-Somalia,-,0
+Somalia,0,0
 South Africa,46,0.00114042
-"South America, nfd",-,0
-"South Eastern Europe, nfd",-,0
-South Sudan,-,0
-"South-East Asia, nfd",-,0
-"Southern and Central Asia, nfd",-,0
-"Southern and East Africa, nfd",-,0
-"Southern and Eastern Europe, nfd",-,0
-"Southern Asia, nfd",-,0
-"Southern Europe, nfd",-,0
+"South America, nfd",0,0
+"South Eastern Europe, nfd",0,0
+South Sudan,0,0
+"South-East Asia, nfd",0,0
+"Southern and Central Asia, nfd",0,0
+"Southern and East Africa, nfd",0,0
+"Southern and Eastern Europe, nfd",0,0
+"Southern Asia, nfd",0,0
+"Southern Europe, nfd",0,0
 Spain,179,0.004437723
 Sri Lanka,793,0.019659857
-St Helena,-,0
-St Kitts and Nevis,-,0
-St Lucia,-,0
-St Pierre and Miquelon,-,0
-St Vincent and the Grenadines,-,0
-"Sub-Saharan Africa, nfd",-,0
+St Helena,0,0
+St Kitts and Nevis,0,0
+St Lucia,0,0
+St Pierre and Miquelon,0,0
+St Vincent and the Grenadines,0,0
+"Sub-Saharan Africa, nfd",0,0
 Sudan,5,0.000123959
-Suriname,-,0
+Suriname,0,0
 Sweden,65,0.001611464
 Switzerland,40,0.00099167
-Syria,1,2.47917E-05
+Syria,1,2.48E-05
 Taiwan,602,0.014924633
-Tajikistan,-,0
+Tajikistan,0,0
 Tanzania,9,0.000223126
 Thailand,757,0.018767354
 Timor-Leste,6,0.00014875
-Togo,-,0
-Tokelau,-,0
+Togo,0,0
+Tokelau,0,0
 Tonga,4,0.000099167
-Trinidad and Tobago,1,2.47917E-05
-Tunisia,1,2.47917E-05
+Trinidad and Tobago,1,2.48E-05
+Tunisia,1,2.48E-05
 Turkey,81,0.002008132
-Turkmenistan,-,0
-Turks and Caicos Islands,-,0
-Tuvalu,1,2.47917E-05
+Turkmenistan,0,0
+Turks and Caicos Islands,0,0
+Tuvalu,1,2.48E-05
 Uganda,10,0.000247917
 Ukraine,10,0.000247917
 United Arab Emirates,19,0.000471043
 "United Kingdom, Channel Islands and Isle of Man, nfd",281,0.006966482
-United States Miscellaneous Islands,-,0
-United States,424,0.010511702
+United States Miscellaneous Islands,0,0
+United States of America,424,0.010511702
 Uruguay,5,0.000123959
 Uzbekistan,11,0.000272709
-Vanuatu,2,4.95835E-05
+Vanuatu,2,4.96E-05
 Venezuela,29,0.000718961
 Vietnam,1449,0.035923245
-"Virgin Islands, British",-,0
-"Virgin Islands, United States",-,0
-Wallis and Futuna,-,0
-"Western Europe, nfd",-,0
-Western Sahara,-,0
-Yemen,3,7.43752E-05
-Yugoslavia,-,0
+"Virgin Islands, British",0,0
+"Virgin Islands, United States",0,0
+Wallis and Futuna,0,0
+"Western Europe, nfd",0,0
+Western Sahara,0,0
+Yemen,3,7.44E-05
+Yugoslavia,0,0
 Zambia,18,0.000446251
 Zimbabwe,68,0.001685839
