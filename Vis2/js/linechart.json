@@ -3,21 +3,14 @@
   "data": {
     "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/Vis2/data/top5exportsources.csv"
   },
-  "width": 600,
+  "width": "container",
   "height": 400,
   "params": [
     {
       "name": "country_selection",
       "bind": {
         "input": "select",
-        "options": [
-          null,
-          "China",
-          "India",
-          "Nepal",
-          "Vietnam",
-          "Malaysia"
-        ],
+        "options": [null, "China", "India", "Nepal", "Vietnam", "Malaysia"],
         "labels": [
           "Show All",
           "China",
@@ -37,12 +30,12 @@
   ],
   "encoding": {
     "x": {
-      "field": "year", 
+      "field": "year",
       "type": "temporal",
       "axis": {"tickCount": 15, "grid": false}
     },
     "y": {
-      "field": "education_exports", 
+      "field": "education_exports",
       "type": "quantitative",
       "axis": {"tickCount": 10, "grid": false}
     },
@@ -57,13 +50,7 @@
     "opacity": {"condition": {"selection": "hover", "value": 1}, "value": 0.2}
   },
   "layer": [
-    {
-      "mark": {
-        "type": "line", 
-        "strokeWidth": 3,
-        "interpolate": "monotone"
-      } 
-    },
+    {"mark": {"type": "line", "strokeWidth": 3, "interpolate": "monotone"}},
     {
       "selection": {
         "hover": {
@@ -75,6 +62,6 @@
       },
       "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
     }
-
-  ]
+  ],
+  "config": {}
 }

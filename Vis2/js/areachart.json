@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": {"step": 25},
+  "width": "container",
   "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/Vis2/data/stateexports.csv"
@@ -31,7 +31,7 @@
   ],
   "layer": [
     {
-      "mark": "area",
+      "mark": {"type": "area", "interpolate": "monotone"},
       "encoding": {
         "x": {"field": "year", "type": "nominal"},
         "y": {
@@ -53,7 +53,7 @@
       }
     },
     {
-      "mark": {"type": "line"},
+      "mark": {"type": "line", "interpolate": "monotone"},
       "encoding": {
         "y": {
           "aggregate": "sum",
