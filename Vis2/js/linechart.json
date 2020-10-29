@@ -4,7 +4,7 @@
     "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/Vis2/data/top5exportsources.csv"
   },
   "width": "container",
-  "height": 400,
+  "height": 300,
   "params": [
     {
       "name": "country_selection",
@@ -19,7 +19,7 @@
           "Vietnam",
           "Malaysia"
         ],
-        "name": "Country Selection: "
+        "name": "Country: "
       }
     }
   ],
@@ -32,17 +32,20 @@
     "x": {
       "field": "year",
       "type": "temporal",
+      "title": "Year",
       "axis": {"tickCount": 15, "grid": false}
     },
     "y": {
       "field": "education_exports",
       "type": "quantitative",
-      "axis": {"tickCount": 10, "grid": false}
+      "title": "Education Exports ($millions)",
+      "axis": {"tickCount": 6, "grid": false}
     },
     "color": {
       "condition": {
         "selection": "hover",
         "field": "countries",
+        "title": "Country",
         "type": "nominal"
       },
       "value": "grey"

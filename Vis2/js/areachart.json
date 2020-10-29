@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": "container",
-  "height": 400,
+  "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/Vis2/data/stateexports.csv"
   },
@@ -18,7 +18,7 @@
           "Victoria",
           "Other States and Territories"
         ],
-        "name": "State/Territory Selection: "
+        "name": "State/territory: "
       }
     }
   ],
@@ -33,16 +33,28 @@
     {
       "mark": {"type": "area", "interpolate": "monotone"},
       "encoding": {
-        "x": {"field": "year", "type": "nominal"},
+        "x": {"field": "year", "title": "Year", "type": "nominal"},
         "y": {
           "aggregate": "sum",
           "field": "education_exports",
+          "title": "Education Exports ($millions)",
           "axis": {"tickCount": 6},
           "scale": {"domain": [0, 42000]}
         },
+        "tooltip": [
+          {"field": "state", "title": "State", "type": "nominal"},
+          {
+            "field": "education_exports",
+            "title": "Education Exports ($m)",
+            "type": "quantitative",
+            "format": ","
+          },
+          {"field": "year", "title": "Year", "type": "nominal"}
+        ],
         "order": {"field": "stateorder"},
         "color": {
           "field": "state",
+          "title": "State",
           "type": "nominal",
           "scale": {
             "domain": ["NSW", "QLD", "VIC", "Other"],
