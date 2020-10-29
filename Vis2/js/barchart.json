@@ -2,18 +2,18 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Vega-Lite version of bar chart from https://observablehq.com/@d3/learn-d3-scales.",
   "width": "container",
-  "height": 400,
+  "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/Vis2/data/fieldofstudy.csv"
   },
   "encoding": {
-    "y": {
+    "x": {
       "field": "Fieldofstudy",
       "type": "nominal",
       "title": null,
       "sort": {"op": "sum", "field": "total", "order": "descending"}
     },
-    "x": {"field": "total", "type": "quantitative", "title": null}
+    "y": {"field": "total", "type": "quantitative", "title": null}
   },
   "layer": [{"mark": "bar"}],
   "config": {}
