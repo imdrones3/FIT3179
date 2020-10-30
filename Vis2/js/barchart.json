@@ -19,6 +19,12 @@
       "type": "quantitative",
       "axis": {"tickCount": 6},
       "title": null
+    },
+    "color": {
+      "field": "Fieldofstudy",
+      "type": "nominal",
+      "scale": {"range": ["#016c59"]},
+      "legend": null
     }
   },
   "layer": [{"mark": "bar"}],

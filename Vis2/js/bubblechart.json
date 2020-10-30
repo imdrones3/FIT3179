@@ -45,7 +45,7 @@
           "Australian Capital Territory",
           "Multistate"
         ],
-        "name": "State/Territory Selection: "
+        "name": "State: "
       }
     }
   ],
@@ -58,14 +58,14 @@
       "field": "onshore",
       "type": "quantitative",
       "title": "Onshore Students",
-      "axis": {"tickCount": 7},
+      "axis": {"tickCount": 6},
       "scale": {"domain": [0, 30000]}
     },
     "y": {
       "field": "offshore",
       "type": "quantitative",
       "title": "Offshore Students",
-      "axis": {"tickCount": 7},
+      "axis": {"tickCount": 6},
       "scale": {"domain": [0, 16000]}
     }
   },
@@ -96,15 +96,15 @@
               "Multistate"
             ],
             "range": [
-              "#cab2d6",
+              "#e41a1c",
+              "#377eb8",
+              "#4daf4a",
+              "#984ea3",
               "#ff7f00",
-              "#fdbf6f",
-              "#e31a1c",
-              "#fb9a99",
-              "#33a02c",
-              "#b2df8a",
-              "#1f78b4",
-              "#a6cee3"
+              "#ffff33",
+              "#a65628",
+              "#f781bf",
+              "#999999"
             ]
           }
         },
@@ -114,12 +114,14 @@
         },
         "size": {
           "field": "total",
+          "title": "Int. Students",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [1000, 5000, 7500, 15000, 30000],
-            "range": [50, 100, 200, 400, 800, 1600]
-          }
+            "domain": [5000, 7500, 15000, 30000],
+            "range": [50, 100, 200, 400, 800]
+          },
+          "legend": {"format": ".1s"}
         },
         "tooltip": [
           {"field": "university", "title": "University", "type": "nominal"},
@@ -151,7 +153,7 @@
         "baseline": "bottom",
         "dx": -57,
         "dy": -16,
-        "fontSize": 11.5,
+        "fontSize": 10,
         "fontStyle": "italic"
       },
       "encoding": {

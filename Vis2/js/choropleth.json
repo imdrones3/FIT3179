@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "COVID-19 Active Cases (10 Oct 2020)",
+  "title": "",
   "width": "container",
   "height": 500,
   "data": {
@@ -25,13 +25,28 @@
   "encoding": {
     "color": {
       "field": "percentage",
+      "title": "Proportion",
       "type": "quantitative",
-      "scale": {"type": "threshold", "domain": [0, 0.001, 0.005, 0.01, 0.1]}
+      "scale": {
+        "type": "threshold",
+        "domain": [0, 0.001, 0.005, 0.01],
+        "range": ["#f6eff7", "#bdc9e1", "#67a9cf", "#1c9099", "#016c59"]
+      }
     },
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "Country"},
-      {"field": "percentage", "type": "quantitative"},
-      {"field": "millions", "type": "quantitative", "title": "millions $"}
+      {
+        "field": "percentage",
+        "type": "quantitative",
+        "title": "Proportion",
+        "format": ".3f"
+      },
+      {
+        "field": "millions",
+        "type": "quantitative",
+        "title": "Millions $",
+        "format": ","
+      }
     ]
   },
   "config": {}

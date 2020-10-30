@@ -39,14 +39,19 @@
       "field": "education_exports",
       "type": "quantitative",
       "title": "Education Exports ($millions)",
-      "axis": {"tickCount": 6, "grid": false}
+      "axis": {"tickCount": 6},
+      "scale": {"domain": [0, 13000]}
     },
     "color": {
       "condition": {
         "selection": "hover",
         "field": "countries",
         "title": "Country",
-        "type": "nominal"
+        "type": "nominal",
+        "scale": {
+          "domain": ["China", "India", "Nepal", "Vietnam", "Malaysia"],
+          "range": ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00"]
+        }
       },
       "value": "grey"
     },
