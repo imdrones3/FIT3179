@@ -3,6 +3,7 @@
   "description": "Vega-Lite version of bar chart from https://observablehq.com/@d3/learn-d3-scales.",
   "width": "container",
   "height": 300,
+  "title": "Total International Students per Field of Study in Australia (2019)",
   "data": {
     "url": "https://raw.githubusercontent.com/imdrones3/FIT3179/main/Vis2/data/fieldofstudy.csv"
   },
@@ -11,22 +12,49 @@
       "field": "Fieldofstudy",
       "type": "nominal",
       "title": null,
-      "axis": {"labelAngle": 45},
+      "axis": {"labelAngle": 45, "grid": false},
       "sort": {"op": "sum", "field": "total", "order": "descending"}
     },
     "y": {
       "field": "total",
       "type": "quantitative",
-      "axis": {"tickCount": 6},
+      "axis": {"tickCount": 6, "grid": false},
       "title": null
     },
     "color": {
-      "field": "Fieldofstudy",
-      "type": "nominal",
-      "scale": {"range": ["#016c59"]},
-      "legend": null
-    }
+      "condition": {
+        "selection": "hover",
+        "field": "Fieldofstudy",
+        "type": "nominal",
+        "scale": {"range": ["#016c59"]},
+        "legend": null
+      },
+      "value": "grey"
+    },
+    "opacity": {"condition": {"selection": "hover", "value": 1}, "value": 0.2},
+    "tooltip": [
+      {"field": "Fieldofstudy", "title": "Course", "type": "nominal"},
+      {
+        "field": "total",
+        "title": "Enrolled Overseas students",
+        "type": "quantitative",
+        "format": ","
+      }
+    ]
   },
-  "layer": [{"mark": "bar"}],
+  "layer": [
+    {"mark": "bar"},
+    {
+      "selection": {
+        "hover": {
+          "type": "single",
+          "on": "mouseover",
+          "empty": "all",
+          "fields": ["total"]
+        }
+      },
+      "mark": {"type": "bar", "strokeWidth": 8, "stroke": "transparent"}
+    }
+  ],
   "config": {}
 }

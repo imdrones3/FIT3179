@@ -5,6 +5,7 @@
   },
   "width": "container",
   "height": 300,
+  "title": "Top 5 Education Export Source Countries",
   "params": [
     {
       "name": "country_selection",
