@@ -52,7 +52,7 @@
   ],
   "transform": [
     {"filter": "datum.total > Total_Above"},
-    {"filter": "state_selection == null || datum.state == state_selection"}
+    {"filter": "state_selection == null || datum.State == state_selection"}
   ],
   "encoding": {
     "x": {
@@ -75,14 +75,14 @@
       "selection": {
         "continent_highlight": {
           "type": "multi",
-          "fields": ["state"],
+          "fields": ["State"],
           "bind": "legend"
         }
       },
       "mark": "circle",
       "encoding": {
         "color": {
-          "field": "state",
+          "field": "State",
           "type": "nominal",
           "scale": {
             "domain": [
